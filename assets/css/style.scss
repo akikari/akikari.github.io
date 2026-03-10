@@ -3,7 +3,12 @@
 
 @import "{{ site.theme }}";
 
-/* Hide the GitHub button in the header */
-#forkme_banner {
+/* Hide the entire top header bar */
+#header {
+  display: none !important;
+}
+
+/* (Optional) Hide only the GitHub button if needed */
+.fork, .fork a {
   display: none !important;
 }
